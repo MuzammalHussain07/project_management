@@ -1,0 +1,13 @@
+{
+"doctype": "DocType",
+"name": "Company",
+"module": "Project Management",
+"custom": 1,
+"fields": [
+{"fieldname": "company_name", "label": "Name", "fieldtype": "Data", "reqd": 1},
+{"fieldname": "address", "label": "Address", "fieldtype": "Small Text"},
+{"fieldname": "phone", "label": "Phone Number", "fieldtype": "Data"},
+{"fieldname": "email", "label": "Email", "fieldtype": "Data"}
+],
+"in_list_view": 1
+}
