@@ -1,0 +1,19 @@
+{
+"doctype": "DocType",
+"name": "Project",
+"module": "Project Management",
+"custom": 1,
+"fields": [
+{"fieldname": "project_name", "label": "Name", "fieldtype": "Data", "reqd": 1},
+{"fieldname": "description", "label": "Description", "fieldtype": "Text"},
+{"fieldname": "start_date", "label": "Start Date", "fieldtype": "Date"},
+{"fieldname": "end_date", "label": "End Date", "fieldtype": "Date"},
+{"fieldname": "company", "label": "Company", "fieldtype": "Link", "options": "Company", "reqd": 1},
+{"fieldname": "project_manager", "label": "Project Manager", "fieldtype": "Link", "options": "User"},
+{"fieldname": "project_members", "label": "Project Members", "fieldtype": "Table", "options": "Project Member"},
+{"fieldname": "status", "label": "Status", "fieldtype": "Select", "options": "New
+In Progress
+Completed", "default": "New"}
+],
+"in_list_view": 1
+}
