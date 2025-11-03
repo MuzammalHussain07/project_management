@@ -1,0 +1,18 @@
+{
+"doctype": "DocType",
+"name": "Task",
+"module": "Project Management",
+"custom": 1,
+"fields": [
+{"fieldname": "task_name", "label": "Name", "fieldtype": "Data", "reqd": 1},
+{"fieldname": "description", "label": "Description", "fieldtype": "Text"},
+{"fieldname": "project", "label": "Project", "fieldtype": "Link", "options": "Project", "reqd": 1},
+{"fieldname": "assigned_worker", "label": "Assigned Worker", "fieldtype": "Link", "options": "User"},
+{"fieldname": "due_date", "label": "Due Date", "fieldtype": "Date"},
+{"fieldname": "status", "label": "Status", "fieldtype": "Select", "options": "New
+In Progress
+Completed", "default": "New"}
+],
+"track_changes": 1,
+"in_list_view": 1
+}
