@@ -1,0 +1,10 @@
+{
+"doctype": "DocType",
+"name": "Project Member",
+"module": "Project Management",
+"istable": 1,
+"fields": [
+{"fieldname": "user", "label": "User", "fieldtype": "Link", "options": "User", "reqd": 1},
+{"fieldname": "role_in_project", "label": "Role in Project", "fieldtype": "Data"}
+]
+}
